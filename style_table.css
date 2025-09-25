@@ -1,0 +1,41 @@
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.col1 {
+    background-color: grey;
+    width: 30%;
+}
+
+.col2 {
+    background-color: yellowgreen;
+}
+
+.col3 {
+    background-color: blueviolet;
+}
+
+thead {
+    background-color: goldenrod;
+}
+
+tfoot {
+    background-color: red;
+}
